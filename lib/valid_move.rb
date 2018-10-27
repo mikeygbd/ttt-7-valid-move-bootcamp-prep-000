@@ -11,6 +11,9 @@ elsif board[index] == nil
   return false
 else board[index] == "X" || "O"
   return true
+
 end
 end
+if position_taken?() == "X" || "O"
+  return false
 end
