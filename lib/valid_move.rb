@@ -15,7 +15,7 @@ else board[index] == "X" || "O"
   return true
 
 end
-end
-if position_taken?() == "X" || "O"
+if board[index] == "X" || board[index] == "O"
   return false
+end
 end
