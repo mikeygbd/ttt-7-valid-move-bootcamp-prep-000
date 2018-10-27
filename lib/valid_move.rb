@@ -15,7 +15,6 @@ else board[index] == "X" || "O"
   return true
 
 end
-if board[index] == "X" || board[index] == "O"
-  return false
+
 end
 end
